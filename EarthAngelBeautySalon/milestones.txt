@@ -1,0 +1,20 @@
+october 27th, started on home page with banner and title and logo and hue color in front
+october 27th added find out and book now buttons and its hover effect
+october 27th downloaded Kashua script font style from google.fonts.com
+-october 29th added hours, introduction and dana image to about us page.
+-october 30 design and develop service page with images and transition for images with dark cyan color and details of each hair service that is illustrated.
+october 31st completed the testimonials page and reach us page.
+-november 1st added custom domain name, www.earthangelbeautysalon.com
+-completed footer page
+-linked hamburger menu to section tags for quicker navigation within website.
+
+
+
+Find out will be linked to like  a contact us page
+Book Now can be linked to her Facebook page
+-for services page add All natural blowout with image, silk press and image, full sweing and cut and image, crochet and image, silken and image
+
+shampoo and conditioning, blow out, silk press, crochet,
+natural twist
+weave- full, partial and quick
+highlights- cap, partial, full highlighting

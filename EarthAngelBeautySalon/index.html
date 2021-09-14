@@ -1,0 +1,313 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Earth Angel Beauty Salon">
+        <meta name="author" content="Terrance Boone">
+        <title> Earth Angel Beauty Salon | Welcome</title> <!--Top of page-->
+        <link rel="stylesheet" href="style.css"/>
+        <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap" rel="stylesheet">
+        <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+
+    </head>
+
+    <body>
+        <!----------------------------------------------- Home Page ------------------------------------------------------->
+        <section id="banner-section">
+            <img src="images/logo-img.png" class ="logo">
+            <div class ="banner-container">
+                <h1>Earth Angel Beauty Salon</h1>
+                <p>If your hair is not becoming of you, you should be coming to earth angel beauty salon</p>
+                <div class = "banner-btn">
+                    <a href ="https://www.facebook.com/Earth-Angel-Beauty-Salon-183001995104952"><span></span>Book Now</a>
+                    <a href ="#reachus-section"><span></span>Reach Us</a>
+
+                </div>
+
+            </div>
+        </section>
+
+        <div class="navbar">
+            <div class ="pro"></div>
+            <h4>Earth Angel Beauty Salon</h4>
+            <hr>
+                <ul>
+                    <li><a href="#banner-section">Home</a></li>
+                    <li><a href="#about-section">About</a></li>
+                    <li><a href="#service-section">Services</a></li>
+                    <li><a href="#testimonial-section">Testemonials</a></li>
+                    <li><a href="#reachus-section">Reach Us</a></li>
+                    <li><a href="#footer-section">Visit Beauty Salon</a></li>
+
+               </ul>
+
+               <!-- hamburger menu button -->
+            <button class = "navbar-btn">
+                <span></span>
+            </button>         
+         </div>
+          <!---------------------- JQuery   ---------------->
+          <script>
+            $('.navbar-btn').click(function() {
+                $('.navbar').toggleClass('active');
+                $('.navbar-btn').toggleClass('toggle');
+            })
+            // All animations will take exactly 500ms
+            var scroll = new SmoothScroll('a[href*="#"]', {
+                speed: 1000,
+                speedAsDuration: true
+            });
+        </script>                   
+    </div>
+
+    <!-------------------------------------------------- About Page ------------------------------------------------>
+        <section id="about-section">
+            <div class ="about-title">
+                <h1>About Us</h1>  
+             </div>
+
+            
+             <div class ="about-container">            
+                <div class ="hours">
+                    <h3>BUSINESS HOURS</h3>
+                    <ol>
+                        <li>Sunday:      CLOSED </li>
+                        <li>Monday:      CLOSED </li>
+                        <li>Tuesday:     10:00am-8:00pm </li>
+                        <li>Wednesday:   10:00am-8:00pm </li>
+                        <li>Thursday:    10:00am-8:00pm </li>
+                        <li>Friday:      10:00am-8:00pm </li>
+                        <li>Saturday:    10:00am-8:00pm </li>                        
+                    </ol>
+                </div>
+
+                <div class="introduction">
+                    <p>Earth Angel Beauty Salon was established in 2007 by none other than its owner, beauty and stylist
+                        professional, Danna Wilson. We are located at 2821 Ashland Road Columbia, SC 29210.<br><br>
+                        We have been servicing customers from all different backgrounds within the community and abroad.  Contact
+                     or visit Earth Angel Beauty Salon today and we will take care of all your hair and cosmetic needs. </p>
+                </div>
+
+                <div class="about-img">
+                    <img src="images/img-three.png">
+                </div>
+         </div>           
+        </section>
+
+        <!---------------------------------------------     Services Page   -------------------------------------------->
+
+        <section id="service-section">
+            <H1>SERVICES</H1>
+            <h4>We Provide Better</h4>
+
+            <div class ="service-container">
+                <div class ="single-service">
+                    <img src="images/shampoo-condition-img.png">
+                    <div class="overlay"></div>
+                    <div class="service-details">
+                        <h3>Shampoo and Conditioning</h3>
+                        <hr>
+                        <p>We offer a variety of shampoo services along with conditioning and styling.</p>
+                    </div>
+                </div>               
+
+                <div class ="single-service">
+                    <img src="images/blowout-img.png">
+                    <div class="overlay"></div>
+                    <div class="service-details">
+                        <h3>Blow Out</h3>
+                        <hr>
+                        <p>An all natural blowout on an Earth angel customer. Contact us to meet your preferred blowout style. </p>
+                    </div>
+                </div>     
+                
+                <div class ="single-service">
+                    <img src="images/silkpress-img.png">
+                    <div class="overlay"></div>
+                    <div class="service-details">
+                        <h3>Silk Press</h3>
+                        <hr>
+                        <p>Book your appointment now to receive an all natural silk press to obtain the flowy hairstyle look
+                            that you desire.</p>
+                    </div>
+                </div>  
+                
+                <div class ="single-service">
+                    <img src="images/highlighting-img.png">
+                    <div class="overlay"></div>
+                    <div class="service-details">
+                        <h3>Highlighting</h3>
+                        <hr>
+                        <p>We offer highlighting services from cap hightlighting, partial head foil hightlighting and 
+                            full head foil hightlighting.</p>
+                    </div>
+                </div>  
+                
+                <div class ="single-service">
+                    <img src="images/crochet-img.png">
+                    <div class="overlay"></div>
+                    <div class="service-details">
+                        <h3>Crochet</h3>
+                        <hr>
+                        <p>At Earth Angel Beauty Salon you can obtain any different crochet braid texture or size for
+                            you hair style needs.
+                        </p>
+                    </div>
+                </div>  
+                
+                <div class ="single-service">
+                    <img src="images/weave-img.png">
+                    <div class="overlay"></div>
+                    <div class="service-details">
+                        <h3>Weave</h3>
+                        <hr>
+                        <p>Do not think twice. Reach out to us for weave services such as a quick weave, a partial head weave
+                            or a full head weave.</p>
+                    </div>
+                </div>               
+            </div>
+
+
+        </section>
+
+        <!------------------------------------------------------ Testimonials Page -------------------------------------------------->
+        <section id="testimonial-section">
+            <div class="testimonial-title">
+            <h1>Testimonials</h1>
+            <h4>What Client Says</h4>
+        </div>
+
+        <div class="testimonial-row">
+            <div class="testimonial-column">
+                <div class="user">
+                     <img src="images/testimonial-imgone.png">
+                            <div class="user-info">
+                                <h4>An Earth Angel</h4>
+                                <small>@earthangel.com</small>
+                            </div>
+                </div>
+                <p>Hi Donna, my husband and kids love my hair. They said that it look like the old me.  Thank you so much.  I was
+                    getting depressed about my hair, but Im so glad the Lord allowed me to meet you.  Thank you so much.
+                </p>
+            </div>
+
+            <div class="testimonial-column">
+                <div class="user">
+                    <img src="images/testimonial-imgtwo.png">
+                           <div class="user-info">
+                               <h4>An Earth Angel</h4>
+                               <small>@earthangel.com</small>
+                           </div>
+               </div>
+                <p>Hi Donna, thank you for taking the time to do my hair. The one step design for natural hair makes me look and feel great
+                     becaause it allows the hair to last for 20 shampoos.  My family loves this stylish look also.  Again Thanks. </p>
+            </div>
+
+            <div class="testimonial-column">
+                <div class="user">
+                    <img src="images/testimonial-imgthree.png">
+                           <div class="user-info">
+                               <h4>An Earth Angel</h4>
+                               <small>@earthangel.com</small>
+                           </div>
+               </div>
+                <p> Donna I really thank you for taking the time and completing my hair and now I have this beautiful silky press.
+                    That one-step smoothing system and boost conditioning treatment really has my hair feeling rejuvenated. Thanks and enjoy 
+                    your day.</p>
+            </div>
+
+        </div>
+
+        </section>
+
+
+        <!------------------------------------------------    Reach Us Page     ----------------------------------------------------->
+        <section id="reachus-section">
+            <h1>Reach Us</h1>
+            <p>Feel free to fill out the form below with any questions or request that you may have have concerning your beauty
+                 and hair needs.  We will respond at the earliest cocnvenience.  Thank you for visiting our website. </p>
+
+            <form action="POST" data-netlify="true" class="earth-angel" name="earth-angel-form">     
+                
+                <div>                
+                    <label>First Name</label><br />
+                    <input type="text" name="firstname" placeholder="Enter First Name"/>                   
+                </div> 
+
+                <div>
+                    <label>Last Name</label><br />
+                    <input type="text" name="lastname" placeholder="Enter Last Name"/> 
+                </div>
+                
+
+                <div>
+                    <label>Email</label><br />
+                    <input type="email" name="email" placeholder="Enter Email Address" />
+                </div>
+
+                 <div>
+                    <label>Phone Number</label><br />
+                    <input type="text" name="phonenumber" placeholder="Enter Phone Number" />
+                </div>
+
+                <div>
+                    <label>Subject</label><br />
+                    <input type="text" name="subject" placeholder="Enter Subject" />
+                </div>
+
+                <div>
+                    <label>Message</label><br />
+                    <textarea name="message" placeholder="Enter Message"></textarea>
+                </div>
+
+                <div>
+                    <input type="file" name="uploadfile" placeholder="Upload File" rows="5" />
+                </div>
+
+                <div class="spam-filter">
+                    <div data-netlify-recaptcha="true"></div>
+                </div>
+                <button class="btnSend" type="submit">Submit</button>
+            </form>
+        </section>
+
+        <!-------------------------------------------   Footer   ---------------------------------------------------------->
+        <section id="footer-section">
+            <img src="images/footer-back-img.png" class="footer-img">
+            <div class="footer-title">
+            <h1>Visit Beauty Salon Today</h1>
+            </div>
+
+            <div class="footer-row">
+                <div class="footer-left">
+                    <h1>Opening Hours</h1>
+                     <p><i class="fa fa-clock-o"></i>Sunday:      CLOSED </p>
+                     <p><i class="fa fa-clock-o"></i> Monday:      CLOSED</p>
+                     <p><i class="fa fa-clock-o"></i> Tuesday:     10:00am-8:00pm</p>
+                     <p><i class="fa fa-clock-o"></i> Wednesday:   10:00am-8:00pm</p>
+                      <p><i class="fa fa-clock-o"></i>Thursday:    10:00am-8:00pm</p>
+                      <p><i class="fa fa-clock-o"></i>Friday:      10:00am-8:00pm</p>
+                      <p><i class="fa fa-clock-o"></i>Saturday:    10:00am-8:00pm </p>
+                </div>
+                <div class="footer-right">
+                    <h1>Get In Touch</h1>
+                    <p>2821 Ashland Road Columbia, SC 29210<i class="fa fa-map-marker"></i></p>
+                    <p>Dannalighty17@gmail.com<i class="fa fa-paper-plane"></i></p>
+                    <p>803-351-4221<i class="fa fa-phone"></i></p>
+                </div>
+            </div>
+
+            <div class="copyright">
+                <p>Earth Angel Beauty Salon Copyright @ 2020 </p>
+                <p>Design and developed by Terrance Boone</p>
+            </div>
+        </section>
+
+    
+         
+    </body>
+    </html>
+        
+    
